@@ -36,7 +36,7 @@ if(com == 1){//                                              *
     if(varor == 0){temp2 = 12;temp2.replace("A","");//Enter to this 12 ,value getter
     digitalWrite(arg1.toInt(),"A" + temp2.toInt());}}}}
   
-if(com == 2){setval;}//This work in version ALPHA 0.4+
+if(com == 2){setval();}//This work in version ALPHA 0.4+
 if(com == 3){arg = 1;varg();if(varor == 1){Serial.println(arg1);}else{Serial.println("Enter value");}}//Serial print in simulator
 if(com == 4){arg = 1;varg();if(varor == 1){Serial.print(arg1);}else{Serial.print("Enter value");}}//Serial print simulator
 if(com == 5){arg = 1;varg();if(varor == 1){delay(arg1.toInt());}else{delay(1000);}}//Delay simulator
